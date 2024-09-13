@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="weather.geocoding.GeoLocationAPITest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-09-13T17:17:28" hostname="Filizs-MacBook-Pro.local" time="1.013">
+<testsuite name="weather.geocoding.GeoLocationAPITest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-09-13T17:26:26" hostname="Filizs-MacBook-Pro.local" time="1.442">
   <properties/>
-  <testcase name="testGetLocationByZip()" classname="weather.geocoding.GeoLocationAPITest" time="0.556"/>
-  <testcase name="testGetLocationByCityState()" classname="weather.geocoding.GeoLocationAPITest" time="0.095"/>
-  <testcase name="[1] London, GB" classname="weather.geocoding.GeoLocationAPITest" time="0.112"/>
-  <testcase name="[2] Paris, FR" classname="weather.geocoding.GeoLocationAPITest" time="0.091"/>
-  <testcase name="[3] New York, US" classname="weather.geocoding.GeoLocationAPITest" time="0.102"/>
+  <testcase name="testGetLocationByZip()" classname="weather.geocoding.GeoLocationAPITest" time="0.603"/>
+  <testcase name="testGetLocationByCityState()" classname="weather.geocoding.GeoLocationAPITest" time="0.182"/>
+  <testcase name="[1] London, GB" classname="weather.geocoding.GeoLocationAPITest" time="0.131"/>
+  <testcase name="[2] Paris, FR" classname="weather.geocoding.GeoLocationAPITest" time="0.267"/>
+  <testcase name="[3] New York, US" classname="weather.geocoding.GeoLocationAPITest" time="0.192"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO weather.geocoding.GeoLocationAPITest - Starting test for getting location by Zip code
 [Test worker] INFO weather.geocoding.GeoLocationAPITest - Test passed: location successfully retrieved for zip code 90210

@@ -43,3 +43,18 @@ bin/
 
 ### Carina Reports ###
 reports/
+
+# Ignore Gradle build files
+.gradle/
+
+# Ignore IntelliJ IDEA project files
+.idea/
+
+# Ignore build output directories
+build/
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp

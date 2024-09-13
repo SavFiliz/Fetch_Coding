@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="weather.geocoding.GeoLocationAPITest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-09-13T17:17:28" hostname="Filizs-MacBook-Pro.local" time="1.013">
+  <properties/>
+  <testcase name="testGetLocationByZip()" classname="weather.geocoding.GeoLocationAPITest" time="0.556"/>
+  <testcase name="testGetLocationByCityState()" classname="weather.geocoding.GeoLocationAPITest" time="0.095"/>
+  <testcase name="[1] London, GB" classname="weather.geocoding.GeoLocationAPITest" time="0.112"/>
+  <testcase name="[2] Paris, FR" classname="weather.geocoding.GeoLocationAPITest" time="0.091"/>
+  <testcase name="[3] New York, US" classname="weather.geocoding.GeoLocationAPITest" time="0.102"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO weather.geocoding.GeoLocationAPITest - Starting test for getting location by Zip code
+[Test worker] INFO weather.geocoding.GeoLocationAPITest - Test passed: location successfully retrieved for zip code 90210
+[Test worker] INFO weather.geocoding.GeoLocationAPITest - Starting test for getting location by City and State
+[Test worker] INFO weather.geocoding.GeoLocationAPITest - Test passed: location successfully retrieved for London, GB
+[Test worker] INFO weather.geocoding.GeoLocationAPITest - Starting test for city/state: London, GB
+[Test worker] INFO weather.geocoding.GeoLocationAPITest - Test passed for city/state: London, GB
+[Test worker] INFO weather.geocoding.GeoLocationAPITest - Starting test for city/state: Paris, FR
+[Test worker] INFO weather.geocoding.GeoLocationAPITest - Test passed for city/state: Paris, FR
+[Test worker] INFO weather.geocoding.GeoLocationAPITest - Starting test for city/state: New York, US
+[Test worker] INFO weather.geocoding.GeoLocationAPITest - Test passed for city/state: New York, US
+]]></system-err>
+</testsuite>
